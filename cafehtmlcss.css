@@ -795,3 +795,51 @@ body {
     z-index: 999; /* Ensure it's above other content */
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for Contact Section */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #3c7f96; /* Green color */
+  font-weight: bold;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #4ca8af; /* Green color */
+}
+
+.contact-info a {
+  color: #5aa3b5; /* Link color */
+  font-size: 18px;
+}
