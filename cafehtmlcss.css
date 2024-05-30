@@ -776,7 +776,7 @@ body {
 
 .instagram-img {
     position: fixed;
-    top: 720px; /* Adjust as needed */
+    top: 600px; /* Adjust as needed */
     right: 20px; /* Adjust as needed */
     width: 100px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
@@ -788,7 +788,7 @@ body {
 
 .jps-img {
     position: fixed;
-    top: 720px; /* Adjust as needed */
+    top: 600px; /* Adjust as needed */
     right: 150px; /* Adjust as needed */
     width: 100px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
