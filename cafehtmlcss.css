@@ -55,16 +55,61 @@ body {
   display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navbar {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
   width: 100%;
-  background: #fff;
+  background: #e1dbdb;
   color: #000;
   opacity: 0.85;
   height: 50px;
   z-index: 12;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-container {
   display: flex;
@@ -136,6 +181,7 @@ body {
 #about {
   padding: 50px 0;
   background: #f5f5f7;
+  
 }
 
 .about-wrapper {
@@ -194,6 +240,19 @@ body {
   object-position: right;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ..........////Food category///........... */
 
 #food {
@@ -207,6 +266,7 @@ body {
   margin-bottom: 40px;
   text-transform: uppercase;
   color: #ffffff;
+  text-shadow: 0.5px 0.5px;
 }
 
 .food-container {
@@ -306,6 +366,8 @@ body {
   font-size: 3.4rem;
   font-weight: 400;
   color: #ffffff;
+  text-shadow: 0.5px 0.5px;
+ 
 }
 
 .food-menu-container {
@@ -332,6 +394,7 @@ body {
 
 .food-description {
   margin: auto 1.5rem;
+
 }
 
 .font-title {
@@ -344,11 +407,13 @@ body {
   font-size: 1.4rem;
   color: #ffffff;
   font-weight: 500;
+  text-shadow: 0.5px 0.5px rgba(229, 229, 227, 0.863);
 }
 
 .food-description .food-price {
   color: #67bcb8;
   font-weight: 700;
+  text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.419);
 }
 
 
@@ -457,7 +522,7 @@ body {
 .form-container textarea {
   display: block;
   width: 100%;
-  border: none;
+  border: white;
   border-bottom: 2px solid #ddd;
   color: #444;
   outline: none;
@@ -634,6 +699,7 @@ body {
   .food-menu-item {
     flex-direction: column;
     text-align: center;
+    
   }
 
   .form-container {
@@ -699,7 +765,7 @@ body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
-    background: linear-gradient(315deg, rgb(15, 10, 14) 3%, rgb(43, 44, 45) 38%, rgb(49, 52, 52) 68%, rgb(111, 110, 110) 98%);
+    background: linear-gradient(315deg, rgb(15, 10, 14) 3%, rgb(154, 156, 159) 38%, rgb(189, 196, 196) 68%, rgb(111, 110, 110) 98%);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -778,7 +844,7 @@ body {
     position: fixed;
     top: 600px; /* Adjust as needed */
     right: 20px; /* Adjust as needed */
-    width: 100px; /* Adjust width as needed */
+    width: 70px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     z-index: 999; /* Ensure it's above other content */
 }
@@ -789,8 +855,8 @@ body {
 .jps-img {
     position: fixed;
     top: 600px; /* Adjust as needed */
-    right: 150px; /* Adjust as needed */
-    width: 100px; /* Adjust width as needed */
+    right: 100px; /* Adjust as needed */
+    width: 70px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     z-index: 999; /* Ensure it's above other content */
 }
@@ -831,6 +897,7 @@ body {
   margin-bottom: 20px;
   color: #3c7f96; /* Green color */
   font-weight: bold;
+  
 }
 
 .contact-info p {
