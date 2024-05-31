@@ -80,7 +80,7 @@ body {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
   width: 100%;
-  background: #e1dbdb;
+  background: #ffffff;
   color: #000;
   opacity: 0.85;
   height: 50px;
@@ -128,6 +128,12 @@ body {
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .menu-items a {
@@ -169,11 +175,24 @@ body {
   justify-content: center;
   height: 100%;
   font-size: 1.6rem;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .main-title {
   text-transform: uppercase;
   margin-top: 1.5em;
+  font: bold;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 /* ......//about us//...... */
@@ -187,10 +206,22 @@ body {
 .about-wrapper {
   display: flex;
   flex-wrap: wrap;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 #about h2 {
   font-size: 2.3rem;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 #about p {
@@ -266,7 +297,12 @@ body {
   margin-bottom: 40px;
   text-transform: uppercase;
   color: #ffffff;
-  text-shadow: 0.5px 0.5px;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .food-container {
@@ -367,6 +403,12 @@ body {
   font-weight: 400;
   color: #ffffff;
   text-shadow: 0.5px 0.5px;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
  
 }
 
@@ -394,6 +436,12 @@ body {
 
 .food-description {
   margin: auto 1.5rem;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 
 }
 
@@ -407,13 +455,13 @@ body {
   font-size: 1.4rem;
   color: #ffffff;
   font-weight: 500;
-  text-shadow: 0.5px 0.5px rgba(229, 229, 227, 0.863);
+  
 }
 
 .food-description .food-price {
   color: #67bcb8;
   font-weight: 700;
-  text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.419);
+ 
 }
 
 
@@ -436,6 +484,12 @@ body {
 #testimonials {
   padding: 5rem 0;
   background: rgba(243, 243, 243);
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .testimonial-title {
@@ -840,22 +894,12 @@ body {
 
 
 
-.instagram-img {
-    position: fixed;
-    top: 600px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
-    width: 70px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    z-index: 999; /* Ensure it's above other content */
-}
-
-
 
 
 .jps-img {
     position: fixed;
     top: 600px; /* Adjust as needed */
-    right: 100px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
     width: 70px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     z-index: 999; /* Ensure it's above other content */
@@ -890,6 +934,7 @@ body {
 
 .contact-info {
   text-align: center;
+  
 }
 
 .contact-info h3 {
@@ -897,6 +942,7 @@ body {
   margin-bottom: 20px;
   color: #3c7f96; /* Green color */
   font-weight: bold;
+ 
   
 }
 
